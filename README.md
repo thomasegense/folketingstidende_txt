@@ -1,4 +1,5 @@
 # folketingstidende_txt
-Data collection containing plain text of the plenary proceedings in the danish parliament <i>Folketinget</i>. <br>
-Thanks to <a href="https://github.com/jensbisgaard">Jens Bisgaard</a> for collecting the dataset<br>
-Data derives from https://beta.folketingstidende.dk/da/e_folketingstidende 
+Data collection containing plain text of the plenary proceedings in the danish parliament <i>Folketinget</i>. Data derives from https://beta.folketingstidende.dk/da/e_folketingstidende. Using a shell-script pdfs where webscraped from e-folketingstidende for each year. Due to the structure of e-folketingstidende this resulted in alot of pdf-files for each years. These pdf-files where then merged in to at single pdf-file pr. year. This step resulted in 48 pdf-files containing the proceedings. The last step was to extract the OCR-scanned text(the OCR was done by e-Folketingstidende) from the pdfs. <u>The txt-files only contain text from the actual proceedings. Text from appendixes and other elements of Folketingstidende is therefore not a part of the text-files in this repository.</u> In circumstances where the parliamentary sessions exceedes one these sessions have been concatenated.  
+ <br>
+Thanks to <a href="https://github.com/jensbisgaard">Jens Bisgaard</a> for collecting the dataset which have taken some time<br>
+Thanks to <a href="https://github.com/thomasegense">Thomas Egense</a> and <a href="https://github.com/perdalum">Per Møldrup-Dalum</a>
